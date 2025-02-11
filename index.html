@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smash Stage Ban Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="mode-select">
+      <button id="solos-btn" class="mode-button active">Solos</button>
+      <button id="crews-btn" class="mode-button">Crews</button>
+    </div>
+
+    <div class="toggle-container">
+      <label class="toggle-switch">
+        <input type="checkbox" id="toggle-switch">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div id="turn-display" class="turn-display">
+      <!-- Turn information will be displayed here -->
+    </div>
+
+    <div id="stage-select" class="stage-select">
+      <!-- Stages will be dynamically loaded here -->
+    </div>
+
+    <div class="ban-controls">
+      <button id="undo-ban-btn">Undo Ban</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
