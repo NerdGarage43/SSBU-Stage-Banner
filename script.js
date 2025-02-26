@@ -30,10 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
       'Town & City',
       'Kalos Pokemon League',
       'Final Destination',
-      'Yoshi\'s Story',
-      'Yoshi\'s Island',
       'Unova Pokemon League',
-      'Lylat Cruise',
+      'Hollow Bastion',
+      'Small Battlefield',
     ],
     counterpickSolos: [
       'Battlefield',
@@ -52,10 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
       'Town & City',
       'Kalos Pokemon League',
       'Final Destination',
-      'Yoshi\'s Story',
-      'Yoshi\'s Island',
       'Unova Pokemon League',
-      'Lylat Cruise',
+      'Hollow Bastion',
+      'Small Battlefield',
     ]
   };
 
